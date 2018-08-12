@@ -4,8 +4,8 @@ var mongo = require('mongodb').MongoClient;
 var objectId = require('mongodb').ObjectID;
 var assert = require('assert');
 
-var url = 'mongodb://localhost:27017/test';
-
+//var url = 'mongodb://localhost:27017/test';
+var url = 'mongodb://karthikeyan:doraDORA1@cluster0-shard-00-00-ppndy.mongodb.net:27017,cluster0-shard-00-01-ppndy.mongodb.net:27017,cluster0-shard-00-02-ppndy.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin';
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index');
